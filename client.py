@@ -2,7 +2,6 @@
 
 '''
 聊天客户端
-
 1. 建立与服务器的连接
 2. 建立接收线程：收到消息后自动打印
 3. 建立发送线程：等待用户数据, 用户输入完后，将消息发送到服务器
@@ -11,6 +10,7 @@
 import sys
 import socket
 import threading
+'''香啊'''
 
 
 class RecvThread(threading.Thread):
