@@ -2,7 +2,6 @@
 
 '''
 聊天室服务器
-
 1. 建立 Server Socket 对象，等待客户端连接
 2. 接收客户端连接，并保存到连接池
 3. 建立客户端线程，等待接受消息
@@ -12,6 +11,7 @@
 
 import socket
 import threading
+# 你好啊
 
 
 class ClientThread(threading.Thread):
